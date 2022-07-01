@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'contraregular';
+    src: url('contra-webfont.woff2') format('woff2'),
+    url('contra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url('../img/contraHeart.gif');
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h1, p, a {
+    font-family: 'contraregular', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    color: #5B6361;
+}
+
+h2 {
+    font-size: 25px;
+    color: fuchsia;
+}
+
+p {
+    font-size: 20px;
+    color: #353A39;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+a {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #5B6361;
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #353A39;
+}
+
+*::after {
+    box-sizing: border-box;
+}
